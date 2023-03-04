@@ -456,7 +456,7 @@ a > span:after {
 /*---------------COMIENZO  NEWS---------------------*/
 .news {
   color: #ffffff;
-  border: 1px solid white;
+  /*   border: 1px solid white; */
   width: 100%;
   height: 250px;
   display: flex;
@@ -466,13 +466,24 @@ a > span:after {
 }
 
 .news_container {
-  width: 30%;
+  text-align: center;
+  width: 25%;
   height: 100%;
   border: 1px solid pink;
+  border-radius: 9%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Rubik";
+}
+
+.news_container a {
+  border: 1px solid white;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 7%;
+  text-align: inherit;
 }
 
 #quote,
